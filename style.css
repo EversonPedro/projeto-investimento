@@ -16,7 +16,7 @@
 /*<img id="menu" src="imagens/menu.png" alt="imagendo menu">*/
 body{
     background-color: var(--cor0);
-    padding: 0%;
+    padding: 0%; 
 
 }
 header#topo{
@@ -25,13 +25,22 @@ header#topo{
     width: 100%;
     height: 70px;
     padding: 0%;
-    margin: 0px;
+    position: fixed;
+    margin-top: -100px;
     
+}
+header#r2{
+}
+
+#r2>h1{
+    margin-top: 100px;
 }
 
 img#logo{
-
-    height: 100px;  
+    width: 100px;
+    height: 100px;
+    margin:-15px 10px 0px 0px; 
+    padding: 0%; 
 
 }
 
@@ -73,3 +82,10 @@ a#abr{
 a#abr:hover{
    background-color: #926512;
 }
+/*
+nav{
+    display: none;
+}
+nav{
+    display: contents;
+}*/
