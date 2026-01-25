@@ -13,6 +13,7 @@
     --cor4:#262626;
     --cor5:#0D0D0D;
 }
+/*<img id="menu" src="imagens/menu.png" alt="imagendo menu">*/
 body{
     background-color: var(--cor0);
     padding: 0%;
@@ -23,24 +24,23 @@ header#topo{
     display: flex;
     width: 100%;
     height: 70px;
-    padding: 0px;
+    padding: 0%;
     margin: 0px;
     
 }
 
 img#logo{
 
-    width: 70px;
-    padding: 0%;
-    margin: 0%;
+    height: 100px;  
 
 }
 
 img#menu{
-    margin: 20px;
-    padding: 0px;
+    height: 40px;
+    padding: 0%;
+    margin: 15px;
+    
 }
-
 
 header>a#ent{
     color: var(--cor0);
@@ -49,11 +49,18 @@ header>a#ent{
     margin-right: 20px;
 }
 
-header>a#ent::after{
-    content: ;
+a#ent::after{
+    content: "login";
+    font-family:"Material Symbols Outlined" ;
+    font-size: 20px;
+    vertical-align: middle;/*alinha o icone com a palavra*/
 
 }
-header>a#abr{
+a#ent:hover{
+    color: #8C8C8C;
+    font-size: 15px;
+}
+a#abr{
     margin: auto;
     margin-right: 20px;
     background-color: #DB981A;
@@ -61,4 +68,8 @@ header>a#abr{
     padding: 8px;
     border-radius: 20px;
     text-decoration: none;    
+}
+
+a#abr:hover{
+   background-color: #926512;
 }
