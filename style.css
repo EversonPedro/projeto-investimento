@@ -26,28 +26,30 @@ header#topo{
     height: 70px;
     padding: 0%;
     position: fixed;
-    margin-top: -100px;
+    box-shadow:3px 3px 10px  rgba(0, 0, 0, 0.37);
     
-}
-header#r2{
 }
 
 #r2>h1{
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 img#logo{
     width: 100px;
     height: 100px;
-    margin:-15px 10px 0px 0px; 
+    margin:-10px 10px 50px 100px; 
     padding: 0%; 
+    position:fixed ;
+    
 
 }
 
 img#menu{
     height: 40px;
+    width: 40px;
     padding: 0%;
-    margin: 15px;
+    margin: 20px 10px 10px 10px;
+    display: block;
     
 }
 
@@ -56,6 +58,7 @@ header>a#ent{
     text-decoration: none;
     margin: auto;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 a#ent::after{
@@ -69,23 +72,91 @@ a#ent:hover{
     color: #8C8C8C;
     font-size: 15px;
 }
-a#abr{
+.abr{
     margin: auto;
     margin-right: 20px;
     background-color: #DB981A;
     color: #0D0D0D;
     padding: 8px;
     border-radius: 20px;
-    text-decoration: none;    
+    text-decoration: none; 
+    margin-bottom: 20px;   
 }
 
-a#abr:hover{
+.abr:hover{
    background-color: #926512;
 }
-/*
-nav{
-    display: none;
+#barra{
+    transition-duration: 0.5s;
 }
 nav{
+display: none;
+}
+
+#barra:hover>nav{
+    margin: -10px 10px 10px 0px;
+    background-color: var(--cor2);
+    padding: 10px;
+    width:150px ;
+    height:170px ;
+    box-shadow:3px 3px 10px  rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
     display: contents;
-}*/
+    display: block; 
+    transition-duration: 0.5s;
+}
+nav>a{
+    color: var(--cor0);
+    text-decoration: none; 
+    padding: 5px;
+    display: block;
+    border-radius: 20px;
+    background-color: var(--cor3);
+    text-align: center;
+}
+
+nav>a:hover{
+    background-color: #926512;
+}
+
+
+
+
+
+
+
+
+
+header#r2{
+    padding: 200px 0px 150px 0px;
+    background-color: #0D0D0D;
+    color: var(--cor0);
+}
+
+#r2>h1{
+   display: block;
+   margin: 0px 0px 50px 50px;
+   font-size: 60px;
+}
+#r2>p{
+    margin: 0px 0px 50px 50px;
+    font-size: 30px;
+}
+#r2>a{
+    background-color:var(--cor3);
+    margin: 50px 50px 50px 50px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--cor5);
+    font-weight: bolder;
+}
+
+#r2>a:hover{
+    background-color: #926512;
+}
+
+
+
+
