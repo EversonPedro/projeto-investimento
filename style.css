@@ -153,6 +153,8 @@ header#r2{
 #r2>a:hover{
     background-color: #926512;
 }
+
+
 main{
     background-color: var(--cor5);
     color: var(--cor0);
@@ -166,13 +168,16 @@ main>p{
     margin:10px 10px 50px 10px
 }
 
+
+
 article{
     display: flex;
     flex-wrap: wrap;
     background-color:var(--cor5);
     color: var(--cor0);
     margin: auto;
-    box-shadow: 10px 50px 10px black;
+    max-width: 1000px;;
+  
 }
 
 .imagen{
@@ -183,6 +188,7 @@ article{
     height: 370px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(27, 27, 27, 0.562);
+    margin: auto;
 }
 .imagen:hover{
     background-color: var(--cor0);
@@ -229,15 +235,20 @@ article{
    
     
 }
+
+
+
 #tias{
  background-color: var(--cor1);
  color: var(--cor5);
  text-align: center;
  padding: 50px 10px 40px 10px ;
+ margin-top: 10px;
 }
 aside{
     background-color: var(--cor1);
     color: var(--cor5);
+    display: block;
     display: flex;
     padding-bottom: 70px;
 }
@@ -246,11 +257,14 @@ aside{
     background-color: var(--cor2);
     padding: 20px;
     border-radius: 10px;
+    margin: auto;
+    margin-top:50px;
 }
 .extra>img{
     width: 220px;
     height: 120px;
     border-radius: 25px;
+    margin: auto;
 
 }
 .extra>ul{
@@ -287,10 +301,14 @@ aside{
 .sobre{
     margin: 20px;
     padding: 10px;
+    margin: auto;
+    min-width: 200px; 
+    max-width: 300px;
 }
 .sobre>h3{
     text-align: center;
     margin: 20px;
+    margin-top: 0px;
 }
 .sobre>p{
     width: 180px;
@@ -305,6 +323,12 @@ footer{
 }
 footer>p{
     margin: 10px;
+}
+.sobre>img{
+    width: 150px;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
 }
 
 
