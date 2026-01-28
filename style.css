@@ -176,19 +176,24 @@ article{
     background-color:var(--cor5);
     color: var(--cor0);
     margin: auto;
-    max-width: 1000px;;
+    max-width: 1000px;
+    gap: 20px;
+    padding: 10px;
+    
   
 }
 
 .imagen{
+    padding-bottom: 5px;
     display: block;
-    margin: 20px 0px 20px 20px;
+    margin: 20px auto 20px auto;
     background-color: #262626;
-    width: 400px;
+    width: 46.8%;
     height: 370px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(27, 27, 27, 0.562);
-    margin: auto;
+    flex: 300px;
+    gap: 5px;
 }
 .imagen:hover{
     background-color: var(--cor0);
@@ -197,20 +202,21 @@ article{
 }
 .imagen:hover>a{
     color: #0D0D0D;
+    margin: 15px 15px 0px 15px;  
 }
 .imagen:hover>a::after{
     color: #0D0D0D;
 }
 .imagen>p{
-    width: 380px;
-    height: 80px;   
+    width: 80%;
+    max-height: 80px;   
     margin: 0px 10px 0px 10px;
     text-align: center;
 }
 
 .imagen>img{
-    width: 400px;
-    height: 200px;
+    width: 100%;
+    height: 50%;
     border-radius: 10px 10px 0px 0px;
 
 }
@@ -224,7 +230,9 @@ article{
 .imagen>a{
   color: var(--cor0);
   text-decoration: none;
-  margin: 15px;  
+  padding: 20px;
+  margin: 15px 15px -20px 15px; 
+  display: block; 
 }
 
 .imagen>a::after{
@@ -235,6 +243,70 @@ article{
    
     
 }
+
+.especial{
+    padding-bottom: 5px;
+    display: block;
+    margin: 20px auto 20px auto;
+    background-color: #262626;
+    width: 46%;
+    height: 370px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(27, 27, 27, 0.562);
+    gap: 5px;
+    min-width: 250px;
+    flex: 250px;
+}
+
+.especial>img{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px 10px 0px 0px;
+    flex: 400px;
+    flex: 0 1 400px ;
+    object-fit: cover;
+}
+
+.especial>h2{
+    text-align: center;
+    margin: 5px;
+}
+
+
+.especial>a{
+  color: var(--cor0);
+  text-decoration: none;
+  margin: 15px 15px -20px 15px; 
+  display: block; 
+}
+
+.especial>a::after{
+   font-family: "Material Symbols Outlined";
+   content:"arrow_forward" ;
+   font-size: 20px;
+   vertical-align: middle;/*alinha o icone com a palavra*/
+   
+    
+}
+.especial:hover{
+    background-color: var(--cor0);
+    color: var(--cor5);
+    transition-duration: 0.5s;
+}
+.especial:hover>a{
+    color: #0D0D0D;
+    margin: 15px 15px 0px 15px;  
+}
+.e:hover:hover>a::after{
+    color: #0D0D0D;
+}
+.especial>p{
+    width: 80%;
+    max-height: 80px;   
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+}
+
 
 
 
@@ -248,7 +320,6 @@ article{
 aside{
     background-color: var(--cor1);
     color: var(--cor5);
-    display: block;
     display: flex;
     padding-bottom: 70px;
 }
