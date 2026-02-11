@@ -428,8 +428,15 @@ aside{
     width: 180px;
     height: 100px;
     text-align: center;
+    margin: auto;
 }
-
+.sobre>img{
+    width: 150px;
+    height: 100px;
+    padding: 0px;
+    margin: auto;
+    margin-left: 25px;
+}
 
 
 
@@ -444,15 +451,10 @@ footer{
 footer>p{
     margin: 10px;
 }
-.sobre>img{
-    width: 150px;
-    height: 100px;
-    padding: 0px;
-    margin: 0px;
-}
 
 
 
+/*configurações das paginas*/
 .imagenpg{
     padding-bottom: 5px;
     display: block;
