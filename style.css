@@ -361,6 +361,7 @@ aside{
     flex-wrap: wrap;
 }
 .extra{
+    
     margin: 50px 10px 50px 10px;
     background-color: var(--cor2);
     padding: 20px;
@@ -374,6 +375,7 @@ aside{
     border-radius: 25px;
     margin: auto;
     margin-left:20px ;
+    transform: translate(center, center);
 
 }
 .extra>ul{
